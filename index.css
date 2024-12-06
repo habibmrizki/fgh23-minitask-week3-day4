@@ -1,0 +1,20 @@
+.special {
+  font-family: "Courier New", Courier, monospace;
+  color: yellow;
+  transition: font-size 0.5s ease-in 0.2s;
+}
+
+.special:hover {
+  font-size: 44px;
+  font-family: "Times New Roman", Times, serif;
+
+  transition: font-size 0.5s ease-in 0.2s;
+}
+
+.special::first-letter {
+  text-transform: capitalize;
+}
+
+.special::before {
+  content: "?";
+}

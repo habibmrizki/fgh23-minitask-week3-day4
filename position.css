@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: lightblue;
+  height: 2000px;
+}
+
+.box {
+  width: 10%;
+  height: 100px;
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 10px 10px 10px 0;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+.absolute {
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+.mini {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  margin: 0;
+  background-color: orange;
+}
+
+.wide {
+  width: 110%;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.sticky {
+  top: 10px;
+  position: sticky;
+  left: 20px;
+}

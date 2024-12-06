@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Style and Positioning</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="minitask.css" />
+    <style>
+      /* Internal CSS */
+      .text-red {
+        color: red;
+      }
+    </style>
+  </head>
+  <body style="background-color: lightgray">
+    <!-- 1. Background Color: Inline CSS -->
+    <h1 style="background-color: yellow">Welcome to Mobile Legend</h1>
+
+    <!-- 2. Text Color: Internal CSS -->
+    <p class="text-red">Menyala abangku</p>
+
+    <!-- 3. Font size & color: External CSS -->
+    <p class="external-text">
+      Dan aku tak tau apa yang terjadiiiiii. Antara aku dan kauuuu!!!!!!
+    </p>
+
+    <!-- 4. Different Selectors -->
+    <div id="id-selector">Elemen Air</div>
+    <div class="class-selector">Elemen Tanah</div>
+    <div>Elemen Api</div>
+
+    <!-- 5. Hover Effect -->
+    <div class="hover-box">Dikonkon Hover</div>
+
+    <!-- 6. Pseudo-element -->
+    <div id="relative-box">Ini bapake</div>
+
+    <!-- 7. Absolute & Relative Units -->
+    <div style="margin: 20px; padding: 10px">
+      <p style="font-size: 2em">Menggunakan realative unit (em)</p>
+      <p style="font-size: 20px">Menggunakan absolute unit (px)</p>
+    </div>
+
+    <!-- 8. Position Relative -->
+    <div
+      style="
+        position: relative;
+        border: 1px dashed blue;
+        width: 150px;
+        height: 100px;
+        margin-top: 20px;
+      "
+    >
+      <div
+        style="
+          position: absolute;
+          top: 20px;
+          left: 30px;
+          background: pink;
+          width: 100px;
+          height: 50px;
+        "
+      >
+        Position Absolute
+      </div>
+      Position Relative
+  </body>
+</html>

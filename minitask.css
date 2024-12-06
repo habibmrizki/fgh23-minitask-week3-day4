@@ -1,0 +1,44 @@
+/* External CSS */
+
+/* 3. Styling text size and color */
+.external-text {
+  font-size: 24px;
+  color: green;
+}
+
+/* 4. ID Selector */
+#id-selector {
+  font-weight: bold;
+  color: navy;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* 4. Class Selector */
+.class-selector {
+  font-style: italic;
+  color: darkgreen;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* 4. Element Selector */
+div {
+  background-color: lightyellow;
+  margin-bottom: 10px;
+}
+
+/* 5. Hover Effect */
+.hover-box:hover {
+  background-color: lightblue;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+/* 6. Pseudo-element */
+#relative-box::after {
+  margin-top: 10px;
+  content: " Budi";
+  font-size: 12px;
+  color: gray;
+}
